@@ -1,0 +1,71 @@
+.container
+{
+    margin: auto;
+    width: 840px;
+}
+/*------------------Header------------------*/
+header {
+    
+    display: flex;
+   
+    
+}
+.titre {
+   width: 70%;
+   
+    
+}
+
+.titre h1 {
+    padding-left: 5%;
+    margin-bottom: 0;
+    
+    
+}
+.titre .soustitre {
+    padding-left: 5%;
+    margin-top: 0;
+    
+
+}
+.prenom {
+    color: rgb(158, 158, 129);
+}
+u{
+    text-decoration: rgb(158, 158, 129) underline;
+}
+.portrait {
+    width: 30%;
+    text-align: center;
+    background-color:rgb(158, 158, 129);
+}
+#photo{
+    border-radius: 50% 50%;
+    margin-top: 1%;
+}
+
+
+
+/*------------------ Disposition générale de aside et main------------*/
+.left_right {
+    display: flex;
+}
+
+aside {
+    width: 30%;
+    background-color: rgb(158, 158, 129);
+}
+
+main {
+    
+    width: 70%;
+    
+}
+
+/*------------------------------------aside--------------------*/
+.cadre{
+    border: solid 1px rgb(112, 112, 107);
+    background-color: rgb(112, 112, 107);
+    color: rgb(158, 158, 129);
+    text-align: center;
+}
