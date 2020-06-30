@@ -1,7 +1,8 @@
 .container
 {
     margin: auto;
-    width: 840px;
+    width: 940px;
+    border: solid 1px rgb(112, 112, 107);
 }
 /*------------------Header------------------*/
 header {
@@ -17,27 +18,28 @@ header {
 }
 
 .titre h1 {
-    padding-left: 5%;
-    margin-bottom: 0;
-    
+    position: relative;
+    left: 5%;
+    bottom: -30%;
     
 }
 .titre .soustitre {
-    padding-left: 5%;
-    margin-top: 0;
+   position: relative;
+   left: 5%;
+   bottom: -15%;
     
 
 }
 .prenom {
-    color: rgb(158, 158, 129);
+    color: #607D8B;
 }
 u{
-    text-decoration: rgb(158, 158, 129) underline;
+    text-decoration: #607D8B underline;
 }
 .portrait {
     width: 30%;
     text-align: center;
-    background-color:rgb(158, 158, 129);
+    background-color:#607D8B;
 }
 #photo{
     border-radius: 50% 50%;
@@ -53,7 +55,9 @@ u{
 
 aside {
     width: 30%;
-    background-color: rgb(158, 158, 129);
+    background-color: #607D8B;
+    display:flex;
+    flex-direction: column;
 }
 
 main {
@@ -64,8 +68,34 @@ main {
 
 /*------------------------------------aside--------------------*/
 .cadre{
-    border: solid 1px rgb(112, 112, 107);
-    background-color: rgb(112, 112, 107);
-    color: rgb(158, 158, 129);
+    border: solid 1px #263238;
+    background-color:#263238 ;
+    color: #607D8B;
     text-align: center;
+}
+.contact {
+    position: relative;
+    left: 8%;
+}
+.apropos{
+    
+    height: 70%;
+}
+.paragraphe_apropos{
+    
+    margin: 5% 5%;
+    text-align: justify;
+    margin-bottom: 50%;
+    
+}
+.loisirs{
+    
+    
+}
+.icon_aside{
+    
+    border: 1px solid #263238;
+    margin-left: 5%;
+    padding:10px ;
+    border-radius: 50% 50%;
 }
