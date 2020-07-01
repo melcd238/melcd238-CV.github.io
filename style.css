@@ -57,6 +57,8 @@
      background-color: #607D8B;
      display:flex;
      flex-direction: column;
+     justify-content: space-between;
+     
  }
 
  main {
@@ -68,6 +70,17 @@
 }
 
  /*------------------------------------aside--------------------*/
+ .contact{
+     margin-bottom: 5%;
+ }
+ .apropos{
+    flex: 2;
+ }
+ .loisirs{
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+
  .cadre{
      
      border: solid 1px #263238;
@@ -75,14 +88,11 @@
      color: #607D8B;
      text-align: center;
  }
- .contact {
+ .paragraphe_contact {
      position: relative;
      left: 8%;
  }
- .apropos{
-
-     height: 80%;
- }
+ 
  .paragraphe_apropos{
 
      margin: 5% 5%;
