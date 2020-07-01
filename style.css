@@ -1,11 +1,11 @@
 .container
-{
-    margin: auto;
-    width: 940px;
-    border: solid 1px rgb(112, 112, 107);
-}
-/*------------------Header------------------*/
-header {
+ {
+     margin: auto;
+     width: 940px;
+     border: solid 1px rgb(112, 112, 107);
+ }
+ /*------------------Header------------------*/
+ header {
     
     display: flex;
    
@@ -15,87 +15,97 @@ header {
    width: 70%;
    
     
-}
+ }
 
-.titre h1 {
+ .titre h1 {
+     position: relative;
+     left: 5%;
+     bottom: -30%;
+
+ }
+ .titre .soustitre {
     position: relative;
     left: 5%;
-    bottom: -30%;
-    
-}
-.titre .soustitre {
-   position: relative;
-   left: 5%;
-   bottom: -15%;
-    
+    bottom: -15%;
 
-}
-.prenom {
-    color: #607D8B;
-}
-u{
-    text-decoration: #607D8B underline;
-}
-.portrait {
-    width: 30%;
-    text-align: center;
-    background-color:#607D8B;
-}
-#photo{
-    border-radius: 50% 50%;
+
+ }
+ .prenom {
+    
+     color: #607D8B;
+ }
+ u{
+     
+     text-decoration: #607D8B underline;
+ }
+ .portrait {
+     width: 30%;
+     text-align: center;
+     background-color:#607D8B;
+ }
+ #photo{
+     border-radius: 50% 50%;
     margin-top: 1%;
 }
-
-
-
 /*------------------ Disposition générale de aside et main------------*/
 .left_right {
     display: flex;
 }
 
-aside {
-    width: 30%;
-    background-color: #607D8B;
-    display:flex;
-    flex-direction: column;
-}
+ aside {
+     width: 30%;
+     background-color: #607D8B;
+     display:flex;
+     flex-direction: column;
+ }
 
-main {
+ main {
     
     width: 70%;
+    display: flex;
+    flex-direction: column;
     
 }
 
-/*------------------------------------aside--------------------*/
-.cadre{
-    border: solid 1px #263238;
-    background-color:#263238 ;
-    color: #607D8B;
-    text-align: center;
-}
-.contact {
-    position: relative;
-    left: 8%;
-}
-.apropos{
-    
-    height: 70%;
-}
-.paragraphe_apropos{
-    
-    margin: 5% 5%;
-    text-align: justify;
-    margin-bottom: 50%;
-    
-}
-.loisirs{
-    
-    
-}
-.icon_aside{
-    
-    border: 1px solid #263238;
-    margin-left: 5%;
-    padding:10px ;
-    border-radius: 50% 50%;
-}
+ /*------------------------------------aside--------------------*/
+ .cadre{
+     
+     border: solid 1px #263238;
+     background-color:#263238 ;
+     color: #607D8B;
+     text-align: center;
+ }
+ .contact {
+     position: relative;
+     left: 8%;
+ }
+ .apropos{
+
+     height: 80%;
+ }
+ .paragraphe_apropos{
+
+     margin: 5% 5%;
+     text-align: justify;
+     margin-bottom: 50%;
+ }
+
+ .icon_aside{
+
+     border: 1px solid #263238;
+     margin-left: 5%;
+     padding:10px ;
+     border-radius: 50% 50%;
+ }
+
+ /*--------------------Main---------------*/
+ .section_main{
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+ .icon_main {
+     color:#607D8B ;
+ }
+ .title{
+     border-bottom: solid 2px #607D8B ;
+ }
