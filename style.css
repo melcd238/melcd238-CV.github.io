@@ -163,6 +163,9 @@ body{
     width: 70%;
     margin-left: 5%;
  }
+ .info h3{
+     text-transform: uppercase;
+ }
 
 ul {
     list-style: none;
