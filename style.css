@@ -1,6 +1,6 @@
 body{
     font-family: 'Raleway', sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 
@@ -161,7 +161,7 @@ body{
  .info{
     
     width: 70%;
-    margin-left: 10%;
+    margin-left: 5%;
  }
 
 ul {
