@@ -204,9 +204,9 @@ body{
 }
 
 /*-------------------------RESPONSIVE---------------------------*/
-@media all and (max-device-width: 480px){  /*----- pour les mobiles-------*/
+@media all and (max-width: 500px){  /*----- pour les mobiles-------*/
     body{
-        font-size: 0,1em;
+        font-size: 0,4em;
     }
     
     .container{
@@ -239,7 +239,7 @@ body{
         display: none;
  }  
     .portrait {
-    width: 100%;
+    width: auto;
     text-align: center;
     background-color:#607D8B;
     height: 200px;
@@ -257,13 +257,13 @@ body{
     }
     main {
     
-        width: 100%;
+        width: auto;
         margin-top: 15%;
        
             
     }
     aside {
-        width: 100%;
+        width: auto;
            
     }
     
@@ -271,7 +271,7 @@ body{
       
 
 }
-@media all and (min-device-width: 480px) and (max-width:840px){
+@media all and (min-width: 500px) and (max-width:840px){
     body {
         font-size: 0.8em;
     }
@@ -296,11 +296,9 @@ body{
         margin-left: 25%;
         
     }
-    .soustitre::after{
-        display: none;
- }  
+
     .portrait {
-    width: 100%;
+    width: auto;
     text-align: center;
     background-color:#607D8B;
     height: 200px;
@@ -316,12 +314,12 @@ body{
     }
     main {
     
-        width: 100%;
+        width: auto;
         margin-top: 5%;
             
     }
     aside {
-        width: 100%;
+        width: auto;
            
     }
 }
