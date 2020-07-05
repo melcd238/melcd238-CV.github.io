@@ -206,12 +206,13 @@ body{
 /*-------------------------RESPONSIVE---------------------------*/
 @media all and (max-device-width: 480px){  /*----- pour les mobiles-------*/
     body{
-        font-size: 0,5em;
+        font-size: 0,4em;
     }
     
     .container{
         width: auto;
     }
+
     header{
         display: flex;
         flex-direction: column;
@@ -219,14 +220,16 @@ body{
         
         
     }
+
     header h1 {
         text-align: center;
-        margin-left: 25%;
+        
+        
        
      } 
     header .soustitre {
         text-align: center;
-        margin-left: 25%;
+        
         
     }
     .soustitre::after{
@@ -240,7 +243,10 @@ body{
 } 
     #photo{
         margin-top: 1%;
-    }   
+    } 
+    
+    
+
     .left_right {
         display: flex;
         flex-direction: column-reverse;
