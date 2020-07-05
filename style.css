@@ -7,7 +7,7 @@ body{
 .container
  {
      margin: auto;
-     width: 840px;
+     width: 940px;
      border: solid 2px #607D8B ;
  }
  p{
@@ -213,7 +213,8 @@ body{
    
     
     .container{
-        width: auto;
+        
+        margin: auto;
     }
 
     header{
@@ -298,7 +299,7 @@ body{
         font-size: 0.7em;
     }
     .container{
-        width: auto;
+       width: auto;
     }
     header{
         display: flex;
@@ -348,7 +349,7 @@ body{
            
     }
 }
-@media all and (min-width:840px) and (max-width: 1280px){
+@media all and (min-width:840px) and (max-width: 940px){
     .container{
         width:auto;
     }
