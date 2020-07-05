@@ -216,35 +216,31 @@ body{
         display: flex;
         flex-direction: column;
         height: 360px;
-        background-color:#607D8B;
         
         
     }
-    .portrait {
-        width: 100%;
-        text-align: center;
-       
-    }
-    .titre {
-        width: 100%;
-        text-align: center;
-         
-      }
     header h1 {
         text-align: center;
-        color: #263238 ;
+        margin-left: 25%;
+       
      } 
     header .soustitre {
         text-align: center;
-        color: #263238 ;
+        margin-left: 25%;
+        
     }
-
     .soustitre::after{
-           background-color:#263238  ;   
-    }  
+        display: none;
+ }  
+    .portrait {
+    width: 100%;
+    text-align: center;
+    background-color:#607D8B
    
-       
-
+} 
+    #photo{
+        margin-top: 1%;
+    }   
     .left_right {
         display: flex;
         flex-direction: column-reverse;
@@ -258,6 +254,7 @@ body{
         width: 100%;
            
     }
+    
    
       
 
