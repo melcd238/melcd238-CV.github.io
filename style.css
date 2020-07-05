@@ -231,12 +231,12 @@ body{
          margin: auto;
          position: relative;
          right: 30px;
+         bottom: 20px;
+     }
+     #photo{
+         margin-top: 20px;
      }
      
-     
-    
-    
-
     .left_right {
         display: flex;
         flex-direction: column-reverse;
