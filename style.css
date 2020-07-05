@@ -206,7 +206,7 @@ body{
 /*-------------------------RESPONSIVE---------------------------*/
 @media all and (max-device-width: 480px){  /*----- pour les mobiles-------*/
     body{
-        font-size: 0,7em;
+        font-size: 0,5em;
     }
     
     .container{
