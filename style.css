@@ -209,7 +209,7 @@ body{
 }
 
 /*-------------------------RESPONSIVE---------------------------*/
-@media all and (max-width: 500px){  /*----- pour les mobiles-------*/
+@media all and (max-width: 800px){  
    
     
     .container{
@@ -219,35 +219,21 @@ body{
          display: flex;
          flex-direction: column;
          height: 360px;
-         
+     }
+     .portrait{
+         background-color: #607D8B;
+         width: auto;
+         height: 220px;
          
      }
-     header h1 {
-         text-align: center;
-         margin-left: 25%;
-         margin-bottom: 20px;
-        
-      } 
-     header .soustitre {
-         text-align: center;
-         margin-left: 25%;
-         
+     .titre{
+         width: auto;
+         margin: auto;
+         position: relative;
+         right: 30px;
      }
-     .soustitre::after{
-         display: none;
-  }  
- 
-     .portrait {
-     width: auto;
-     text-align: center;
-     background-color:#607D8B;
-     height: 200px;
      
-    
- } 
-     #photo{
-         margin-top: 2%;
-     }   
+     
     
     
 
@@ -283,64 +269,4 @@ body{
    
       
 
-}
-@media all and (min-width: 500px) and (max-width:840px){
-    body{
-        font-size: 0.7em;
-    }
-    .container{
-       width: auto;
-    }
-    header{
-        display: flex;
-        flex-direction: column;
-        height: 360px;
-        
-        
-    }
-    header h1 {
-        text-align: center;
-        margin-left: 25%;
-        margin-bottom: 20px;
-       
-     } 
-    header .soustitre {
-        text-align: center;
-        margin-left: 25%;
-        
-    }
-    .soustitre::after{
-        display: none;
- }  
-
-    .portrait {
-    width: auto;
-    text-align: center;
-    background-color:#607D8B;
-    height: 200px;
-    
-   
-} 
-    #photo{
-        margin-top: 2%;
-    }   
-    .left_right {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    main {
-    
-        width: auto;
-        margin-top: 5%;
-            
-    }
-    aside {
-        width: auto;
-           
-    }
-}
-@media all and (min-width:840px) and (max-width: 940px){
-    .container{
-        width:auto;
-    }
 }
