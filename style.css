@@ -218,6 +218,7 @@ body{
         height: 360px;
         background-color:#607D8B;
         
+        
     }
     .portrait {
         width: 100%;
@@ -226,23 +227,25 @@ body{
     }
     .titre {
         width: 100%;
-        height: 180px;
         text-align: center;
          
       }
-    .titre h1 {
-        position: relative;
-        left: 34px;
-        top: 80px;
-        text-transform: uppercase ;
-        color: #263238 ; } 
-    .prenom {
-    
-            color:#263238  ;
-        }    
+    header h1 {
+        text-align: center;
+        color: #263238 ;
+     } 
+    header .soustitre {
+        text-align: center;
+        color: #263238 ;
+    }
+
+    .soustitre::after{
+           background-color:#263238  ;   
+    }  
+   
        
 
-     .left_right {
+    .left_right {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -255,6 +258,7 @@ body{
         width: 100%;
            
     }
+   
       
 
 }
@@ -271,26 +275,31 @@ body{
         flex-direction: column;
         height: 360px;
         
-    }
-    .portrait {
-        width: 100%;
-        text-align: center;
-        background-color:#607D8B;
-    }
-    .titre {
-        width: 100%;
-        height: 180px;
-        text-align: center;
         
-         
-      }
-      #photo{
-        margin-top: 3px;
+    }
+    header h1 {
+        text-align: center;
+        margin-left: 25%;
        
-   } 
-       
-
-     .left_right {
+     } 
+    header .soustitre {
+        text-align: center;
+        margin-left: 25%;
+        
+    }
+    .soustitre::after{
+        display: none;
+ }  
+    .portrait {
+    width: 100%;
+    text-align: center;
+    background-color:#607D8B
+   
+} 
+    #photo{
+        margin-top: 1%;
+    }   
+    .left_right {
         display: flex;
         flex-direction: column-reverse;
     }
