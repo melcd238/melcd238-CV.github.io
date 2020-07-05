@@ -276,15 +276,16 @@ body{
         width: auto;
            
     }
+   
     .flex_item{
         display: flex;
         flex-direction: column;
-        text-align: center;
+       
         
     }
-   
-    .item p{ 
-        margin-left: 110px;
+    .item{
+    
+        margin: auto;
     }
    
     
