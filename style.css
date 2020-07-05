@@ -216,12 +216,13 @@ body{
         display: flex;
         flex-direction: column;
         height: 360px;
+        background-color:#607D8B;
         
     }
     .portrait {
         width: 100%;
         text-align: center;
-        background-color:#607D8B;
+       
     }
     .titre {
         width: 100%;
