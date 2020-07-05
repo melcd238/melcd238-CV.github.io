@@ -228,8 +228,8 @@ body{
     header h1 {
         text-align: center;
         margin-left: 20%;
-        margin-bottom: 20px;
-        font-size: 25px;
+        margin-bottom: 15px;
+        font-size: 20px;
      } 
 
      header h1, .prenom {
@@ -276,6 +276,17 @@ body{
         width: auto;
            
     }
+    .flex_item{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+   
+    .item p{ 
+        margin-left: 110px;
+    }
+   
     
    
       
