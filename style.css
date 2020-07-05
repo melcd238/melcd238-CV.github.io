@@ -7,7 +7,7 @@ body{
 .container
  {
      margin: auto;
-     width: 900px;
+     width: 70%;
      border: solid 2px #607D8B ;
  }
  p{
@@ -123,10 +123,14 @@ body{
  .icon_aside{
 
      border: 1px solid #263238;
-     margin-left: 5%;
+     margin-left: 10px;
      padding:10px ;
      border-radius: 50% 50%;
      width: 45px;
+     
+ }
+ .icon_aside_centrage{
+     text-align: center;
  }
 
  /*--------------------Main---------------*/
@@ -201,6 +205,10 @@ body{
 
 /*-------------------------RESPONSIVE---------------------------*/
 @media all and (max-device-width: 480px){  /*----- pour les mobiles-------*/
+    body{
+        font-size: 0,7em;
+    }
+    
     .container{
         width: auto;
     }
@@ -225,7 +233,7 @@ body{
         left: 34px;
         top: 80px;
         text-transform: uppercase ;
-        color: #263238 ;  
+        color: #263238 ; } 
        
 
      .left_right {
@@ -244,7 +252,11 @@ body{
       
 
 }
-@media screen and (max-width:640px){
+@media screen and (max-width:840px){
+    body {
+        font-size: 0.8em;
+    }
+    
     .container{
         width: auto;
     }
@@ -262,8 +274,15 @@ body{
     .titre {
         width: 100%;
         height: 180px;
+        border: #263238 1px solid;
+        text-align: center;
+        
          
       }
+      #photo{
+        margin-top: 3px;
+       
+   } 
        
 
      .left_right {
@@ -280,7 +299,7 @@ body{
            
     }
 }
-@media all and (min-width:640px) and (max-width: 1280px){
+@media all and (min-width:840px) and (max-width: 1280px){
     .container{
         width:auto;
     }
