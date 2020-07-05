@@ -223,12 +223,13 @@ body{
 
     header h1 {
         text-align: center;
-        
+        margin-left: 25%;
         
        
      } 
     header .soustitre {
         text-align: center;
+        margin-left: 25%;
         
         
     }
@@ -254,6 +255,7 @@ body{
     main {
     
         width: 100%;
+       
             
     }
     aside {
@@ -309,6 +311,7 @@ body{
     main {
     
         width: 100%;
+        margin-top: 5%;
             
     }
     aside {
