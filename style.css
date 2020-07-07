@@ -1,6 +1,11 @@
+html, body{
+    font-size: 16px;
+}
+
+
 body{
     font-family: 'Raleway', sans-serif;
-    font-size: 0.8em;
+    
 }
 
 
@@ -63,7 +68,7 @@ body{
  }
  #photo{
      border-radius: 50% 50%;
-    margin-top: 3%;
+     margin-top: 3%;
     
 }
 /*------------------ Disposition générale de aside et main------------*/
@@ -141,6 +146,7 @@ body{
  .icon_main {
      color:#607D8B ;
      margin-right: 15px;
+     font-size: 1.8rem;
  }
  .title{
      border-bottom: solid 2px #607D8B ;
@@ -192,7 +198,7 @@ body{
 
 
 .icon_circle{
-    font-size: 0.5em;
+    font-size: 0.4rem;
     color: #607D8B ;
     margin-left: 3%;
     margin-right:2px ;
@@ -209,7 +215,93 @@ body{
 }
 
 /*-------------------------RESPONSIVE---------------------------*/
-@media all and (max-width: 800px){  
+@media only screen and (max-width: 500px){
+    html, body{
+        font-size: 12px;
+    }
+    .container{
+        width: auto;
+     }
+     header{
+         display: flex;
+         flex-direction: column;
+         height: 360px;
+     }
+     .portrait{
+         background-color: #607D8B;
+         width: auto;
+         height: 220px;
+         
+     }
+     .titre{
+         width: auto;
+         margin: auto;
+         position: relative;
+         right: 30px;
+         bottom: 20px;
+     }
+     #photo{
+         margin-top: 20px;
+     }
+     
+    .left_right {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    main {
+    
+        width: auto;
+        margin-top: 15%;
+       
+            
+    }
+    aside {
+        width: auto;
+        
+           
+    }
+   
+    .flex_item{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .item{
+    
+        margin: auto;
+    }
+    .section_information{
+        display: flex;
+        flex-direction: column;
+    }
+    .date{
+        
+        margin: auto;
+        width: 160px;
+         }
+    .year_city{
+        color: #263238;
+        width: 140px;
+    }
+    .year_city p{
+        font-size: 1.2rem;
+    }
+        
+    .title{
+        font-size: 1.2rem;
+        font-style: italic;
+        
+    }
+    .info{
+        margin: auto;
+    }
+    .info h3{
+        font-size: 1rem ;
+    }
+   
+}
+@media only screen and (min-width:501px) and (max-width: 1024px){  
    
     
     .container{
