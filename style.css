@@ -255,6 +255,7 @@ body{
        
             
     }
+    
     aside {
         width: auto;
         
@@ -271,6 +272,9 @@ body{
     
         margin: auto;
     }
+    .section_main{
+       margin: 0px 2%;
+    }
     .section_information{
         display: flex;
         flex-direction: column;
@@ -281,20 +285,23 @@ body{
         width: 160px;
          }
     .year_city{
-        color: #263238;
-        width: 140px;
-    }
-    .year_city p{
         font-size: 1.2rem;
+        color: #607D8B;
+        width: 140px;
+        
+
     }
         
     .title{
         font-size: 1.2rem;
-        font-style: italic;
+        
         
     }
     .info{
         margin: auto;
+        font-size: 1.1rem;
+    
+       
     }
     .info h3{
         font-size: 1rem ;
